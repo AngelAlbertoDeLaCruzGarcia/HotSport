@@ -1,0 +1,100 @@
+.form-titulo{
+color: white;
+font-family: 'Open sans';
+background: dodgerblue;
+padding: 20px;
+text-align: center;
+font-weight: 100;
+font-size: 30px;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+border-bottom: 5px solid #F97F51;
+}
+.form_becas{
+width: 95%;
+max-width: 600px;
+margin: auto;
+background: white;
+border-radius: 7px;
+
+}
+.btn_buscar{
+    background: #F97F51;
+    color: white;
+    margin: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Open sans';
+    margin-top: 0px;
+}
+.btn_nav1{
+    background: #F97F51;
+    color: white;
+    margin: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Open sans';
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: -110px;
+}
+.btn_nav{
+    background: #F97F51;
+    color: white;
+    margin: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Open sans';
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: -110px;
+}
+
+
+.form_user{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    background: hsla(60, 17%, 8%, 0.247);
+    border-radius: 7px;
+  
+    
+    }
+.main label{
+
+    color: white;
+}
+
+input{
+ 
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid darkgrey;
+    font-family: 'Open sans';
+    font-size:18px;
+}
+.conten-inputs{
+    padding:10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:white;
+    font-size: 17px;
+}
+
+.input-100{
+width: 100%;
+}
+.input-48{
+    width:48%;
+}
+.btn_enviar, .btn_borrar{
+    background: #F97F51;
+    color: white;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-family: 'Open sans';
+    margin-top: 11px;
+}

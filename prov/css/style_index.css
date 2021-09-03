@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+body{
+	background: #313D52;
+	
+}
+.main{
+	width: 100%;
+	margin: 30px auto;
+	max-width:1080px;
+	color: white;
+	
+}
+header{
+    width: 100%;
+    max-width:8000px;
+    position: fixed;
+    z-index: 100;
+}
+
+.navegacion{
+    margin-top: 0px;
+    position: relative;
+	background: #2ecc71;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #ffffff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #F97F51;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 140%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 13px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+/*fOOTER*/
+.footer{
+	width: 100%;
+	height: 90px;
+	background:black; 
+	color: white;
+	font-family: 'Open sans';
+	margin-top: 100px; 
+	padding: 3px;
+}
+
+
+.footer1{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.copyright{
+	color: #C7C7C7;
+
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+	font-weight: bold;
+	font-family: 'Open sans';
+
+}
+
+.information a{
+	text-decoration: none;
+	color: #C7C7C7;
+	font-family: 'Open sans';
+}
+.derechos,.footerEscuela{
+	font-family: 'Open sans';
+	font-size: 10px;
+}
+
+
+
+

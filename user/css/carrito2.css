@@ -1,0 +1,74 @@
+	.big-outer{ width:80%; height:100%; background:rgba(255,255,255,0.7); margin:auto}
+	.detalle{	float: right; text-align: center; width: 37%; margin-right: 10px;}
+	.detalle p{ text-align:center; margin:0px;}
+	.Nombre{ font-size: 75px; margin-bottom: 10px;}
+	.Descripcion{font-size: 40px;margin-bottom: 30px;}
+	.Precio{font-size: 30px; margin-top: 15px;}
+.upper-details{background:#EFEFEF;}
+.upper-details td{text-align:center;}
+
+.nav{
+margin-top:50px;
+float: left;
+margin-left: 10px;
+}
+
+#fondo{
+	width:100%;
+	height:730px;
+	position: absolute;
+    top:0px;
+
+    	background: url(../fondos/pasto-sintetico-5m.jpg) no-repeat center top;
+    background-size: 1516px 1000px;
+	}
+#lowrbdy{
+	width:90%;
+	height:400px;
+	position:absolute;
+	top:100px;
+	right:70px;
+
+
+	}
+#lowrbdy img{
+	width:50%;
+	height:100%;
+	position: absolute;
+	}
+.btn_nav1{
+    background: #F97F51;
+    color: white;
+    
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Open sans';
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: -210px;
+}
+.btn_nav{
+    background: #F97F51;
+    color: white;
+
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Open sans';
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: -210px;
+}
+
+
+
+	.btn_enviar{
+		background: #F97F51;
+		color: white;
+		margin: auto;
+		padding: 10px 30px;
+		cursor: pointer;
+		font-family: 'Open sans';
+		margin-top: 11px;
+		border-radius: 10px;
+		font-size: 30px;
+	}

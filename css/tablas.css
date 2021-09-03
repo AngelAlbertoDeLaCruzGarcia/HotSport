@@ -1,0 +1,38 @@
+body{
+     font-family: 'Open sans'; 
+}
+#tabla-container{
+    width: 900px;
+  } 
+
+.nav{
+float: left;
+margin-left: 10px;
+}
+
+.tam{
+    width: 1200px
+}
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    border: solid 0px black;
+    padding: 20px;
+}
+
+thead{
+    background-color: #ff7f50;
+    border-bottom:soid 5px black;
+    color: white;
+}
+tr:nth-child(even){
+    background-color:#ddd; 
+}
+tr:hover td{
+    background-color:#ff7f50; 
+    color: white;
+}
